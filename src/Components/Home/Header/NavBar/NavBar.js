@@ -8,9 +8,9 @@ const NavBar = () => {
         <div>
             <Container >
                 <Row className="d-flex justify-content-center">
-                    <Col md={4}>
+                    <Col md={4} className="text-center">
                         <Link className="" to={'/'}>
-                            <img className="img-fluid 50" src={logo} alt="" />
+                            <img className="img-fluid w-75" src={logo} alt="" />
                         </Link>
                     </Col>
                 </Row>
@@ -18,7 +18,7 @@ const NavBar = () => {
             </Container>
            
                   
-                   <Navbar bg="dark"  expand="lg">
+                   <Navbar style={{backgroundColor:"black"}}  expand="lg">
                        <Container>
                      
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
